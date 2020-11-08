@@ -24,16 +24,16 @@ body{
     /*3D Infinity Effect*/
     overflow: hidden;
     font-family: Arial Narrow, sans-serif;
-    font-size: 1.3em;
+    font-size: 1.4em;
     font-weight: 400;
-    background: linear-gradient(90deg, rgba(46,8,116,1) 0%, rgba(48,4,65,1) 35%, rgba(12,75,88,1) 100%););
+    background: linear-gradient(90deg, rgba(46,8,116,1) 0%, rgba(48,4,65,1) 35%, rgba(12,75,88,1) 100%);
 }
 
 .nav-list{
     background: white;
     box-shadow:0px 0px 0px var(--clr-gray200);
     margin:0;
-    padding:1.5rem 0;
+    padding:1.3rem 0;
     border-radius:var(--radius);
     display:flex;
     justify-content: flex-end;
@@ -81,7 +81,7 @@ body{
 
 .container {
     width: 100%;
-    height: 95%;
+    height: 2%;
     position: relative;
     display: flex;
     align-items: center;
@@ -91,8 +91,8 @@ body{
 }
 .frame{
     width: 1800px;
-    height: 840px;
-    position: absolute;
+    height: 850px;
+    position:absolute;
     border-radius: 50px;
     border: 5px #087be6 solid;
     box-shadow: 
@@ -175,28 +175,38 @@ body{
 }
 .frame:nth-child(15){
     transform: rotate(0deg) translateY(700px) translateZ(-140px);
-    opacity: 0.30;
+    opacity: 0.25;
     animation-delay: 2.9s;
 }
 .frame:nth-child(16){
     transform: rotate(0deg) translateY(750px) translateZ(-150px);
-    opacity: 0.30;
+    opacity: 0.25;
     animation-delay: 3.1s;
 }
 .frame:nth-child(17){
     transform: rotate(0deg) translateY(800px) translateZ(-160px);
-    opacity: 0.30;
+    opacity: 0.25;
     animation-delay: 3.3s;
 }
 .frame:nth-child(18){
     transform: rotate(0deg) translateY(850px) translateZ(-170px);
-    opacity: 0.30;
+    opacity: 0.25;
     animation-delay: 3.5s;
 }
 .frame:nth-child(19){
     transform: rotate(0deg) translateY(900px) translateZ(-180px);
-    opacity: 0.30;
+    opacity: 0.25;
     animation-delay: 3.7s;
+}
+.frame:nth-child(20){
+    transform: rotate(0deg) translateY(950px) translateZ(-190px);
+    opacity: 0.25;
+    animation-delay: 4.1s;
+}
+.frame:nth-child(21){
+    transform: rotate(0deg) translateY(1000px) translateZ(-200px);
+    opacity: 0.25;
+    animation-delay: 4.3s;
 }
 
 @keyframes breathing {
@@ -208,4 +218,16 @@ body{
     0% {perspective: :45px;}
     50% {perspective: :50px;}
     100% {perspective: :45px;}
+}
+.img-container{
+    height: 450px;
+    width: 1027;
+    margin: auto;
+    display: center;
+}.img-container img{
+    height: 250px;
+    width: 800;
+    position: absolute; top: 41rem; left: 45.8rem;z-index: 10}
+    max-height: 100%;
+    max-width: 100%;
 }
