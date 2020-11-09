@@ -225,9 +225,9 @@ body{
     margin: auto;
     display: center;
 }.img-container img{
-    height: 250px;
-    width: 800;
-    position: absolute; top: 41rem; left: 45.8rem;z-index: 10}
+    height: 280px;
+    width: 900;
+    position: absolute; top: 39.7rem; left: 44rem;z-index: 10}
     max-height: 100%;
     max-width: 100%;
 }
